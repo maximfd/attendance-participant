@@ -1,0 +1,26 @@
+.success {
+    height: 316px;
+    width: 80%;
+    margin: 1.5em 0 0 0;
+    /* background: #f9f9f9; */
+    /* box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .1); */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.successImg {
+    padding: 3%;
+    opacity: 0.8;
+    width: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:500&display=swap&subset=cyrillic');
+.successText {
+    /* font-family: 'Pangolin'; */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Exo 2', sans-serif;
+}

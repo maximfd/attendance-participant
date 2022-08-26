@@ -1,0 +1,59 @@
+.scanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: #ebebeb; */
+    background-color: #E9EAEC;
+    height: 100vh;
+}
+
+.placeHolder {
+    /* height: 50%; */
+    height: 328px;
+    width: 80%;
+    margin: 1.5em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #f9f9f9; */
+    border: 2px dashed #90ADC6;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .1);
+    border-radius: 7px;
+}
+
+.defaultImg {
+    /* padding: 2% 8%; */
+    /* margin: 2% 8%; */
+    opacity: 0.5;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:500&display=swap&subset=cyrillic');
+.defaultText {
+    font-size: 18px;
+    font-weight: lighter;
+    width: 70%;
+    text-align: center;
+    color: #90ADC6;
+    font-family: 'Exo 2', sans-serif;
+    /* text-transform: uppercase; */
+}
+
+.btnShow {
+    text-align: center;
+    width: 80%;
+    font-size: 17px;
+    background-color: #FAD02C;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    /* color: #333652; */
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    margin-top: 3em;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}

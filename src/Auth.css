@@ -1,0 +1,20 @@
+.auth-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btnChange {
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 19px;
+    width: 60%;
+    border-radius: 5px;
+    padding: 0.8em;
+    cursor: pointer;
+    overflow: hidden;
+}
